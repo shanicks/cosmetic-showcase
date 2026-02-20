@@ -35,7 +35,7 @@ export function ThreeD() {
   return (
     <Canvas
       camera={{ position: [0, 0, 5], fov: 45 }}
-      className="z-0 absolute inset-0 h-full w-full bg-[url('splash2.png') content-fit]"
+      className="z-0 absolute inset-0 h-full w-full]"
     >
       <ambientLight intensity={1500} />
       <directionalLight position={[2, 2, 2]} />

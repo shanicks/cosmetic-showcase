@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ThreeD } from "./ThreeD";
 export function HeroSection() {
   return (
-    <section className="relative w-full overflow-hidden px-6 pb-16 pt-8 lg:px-12 lg:pt-12 bg-white">
+    <section className="relative w-full overflow-hidden px-6 pb-16 pt-8 lg:px-12 lg:pt-12 bg-cover bg-[url('splash5.png')]">
       <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2 lg:gap-6">
         {/* Left Content */}
         <div className="flex flex-col gap-6 text-[#312321]">
