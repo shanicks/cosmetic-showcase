@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ThreeD } from "./ThreeD";
 export function HeroSection() {
   return (
-    <section className="relative w-full overflow-hidden px-6 pb-16 pt-8 lg:px-12 lg:pt-12 bg-cover bg-[url('splash5.png')]">
+    <section className="relative w-full overflow-hidden px-6 pb-16 pt-8 lg:px-12 lg:pt-12 bg-cover bg-[url('splash6.png')]">
       <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2 lg:gap-6">
         {/* Left Content */}
         <div className="flex flex-col gap-6 text-[#312321]">
@@ -23,15 +23,15 @@ export function HeroSection() {
           </div>
 
           <div className="flex items-center gap-4 pt-2">
-            <Button className="rounded-full bg-primary px-7 py-5 text-sm font-medium text-primary-foreground hover:bg-primary/90">
-              Buy Now
+            <Button className="rounded-full bg-[#A98F86] px-7 py-5 text-sm font-large font-bold text-primary-foreground hover:bg-primary/90">
+              Buy Now | $49.99
             </Button>
-            <Button
+            {/* <Button
               variant="outline"
               className="rounded-full border-foreground/30 px-7 py-5 text-sm font-medium text-foreground hover:bg-secondary"
             >
               $49.99
-            </Button>
+            </Button> */}
           </div>
         </div>
 
